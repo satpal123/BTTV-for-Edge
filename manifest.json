@@ -1,0 +1,33 @@
+{
+    "author": "Microsoft Corporation",
+    "browser_action": {
+        "default_popup": "settings.html"
+    },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [
+                "betterttv.js"
+            ],
+            "matches": [
+                "*://*.twitch.tv/*"
+            ]
+        }
+    ],
+    "description": "Enhances Twitch with new features, bug fixes, and reduced clutter.",
+    "homepage_url": "https://www.betterttv.com",
+    "icons": {
+        "128": "icon.png"
+    },
+    "manifest_version": 2,
+    "name": "BetterTTV",
+    "permissions": [
+        "*://*.twitch.tv/*"
+    ],
+    "short_name": "BTTV",
+    "version": "6.9",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}
