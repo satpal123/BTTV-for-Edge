@@ -1,4 +1,4 @@
-# BTTV-for-Edge
+# Better TTV for Edge
 
 As we all know BetterTTV which enhances Twitch with new features, emotes, and more. Recently Microsoft has released an Extension toolkit which converts Chrome extensions to Microsoft Edge.
 
@@ -13,4 +13,4 @@ To load this extension, you will first have to enable the developer mode for Edg
 
 Any Suggestions or feedbacks will be appreciated :)
 
-
+Note: You need WIndows 10 build 14291 or higher.
