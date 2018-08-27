@@ -1,6 +1,6 @@
 # Better TTV for Edge
 
-UPDATE : You can not get the BetterTTV from the Microsoft Store
+UPDATE : The extention is now available from the Microsoft Store
 
 As we all know BetterTTV which enhances Twitch with new features, emotes, and more. Recently Microsoft has released an Extension toolkit which converts Chrome extensions to Microsoft Edge.
 
